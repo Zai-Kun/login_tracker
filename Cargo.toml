@@ -1,0 +1,9 @@
+[package]
+name = "login_tracker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+dotenv = "0.15.0"
+shellexpand = "3.1.0"
