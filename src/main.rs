@@ -57,5 +57,5 @@ fn format_duration(duration: Duration) -> String {
     let hours = (total_seconds % 86400) / 3600; // 3600 seconds in an hour
     let minutes = (total_seconds % 3600) / 60; // 60 seconds in a minute
 
-    format!("Total time: {}d, {}h, {}m", days, hours, minutes)
+    format!("Total elapsed time: {}d, {}h, {}m", days, hours, minutes)
 }
